@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO APP</title>
+    <style>
+      body {
+        background-color: hotpink;
+      }
+      div {
+        text-align: center;
+        background-color: lightblue;
+      }
+      h1 {
+        color: black;
+        background-color: darksalmon;
+      }
+      button {
+        background-color: grey;
+        color: white;
+        margin-left: 10px;
+        margin-bottom: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      ol {
+        text-align: center;
+        list-style: none;
+        color: red;
+      }
+      input[type="text"] {
+        width: 40%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>To-do-list</h1>
+      <input type="text" id="todo-input" />
+      <button onclick="addtodo()">Add</button>
+      <button onclick="deletetodo()">Delete</button>
+    </div>
+    <div>
+      <ol id="listItem"></ol>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
